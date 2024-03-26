@@ -1,0 +1,86 @@
+.top-bar {
+    background-color: #000;
+    color: #C0CAF5;
+    width: 100%;
+    height: 161px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex; 
+    align-items: center;
+    transition: all 0.5s ease;
+}
+.top-bar #bar-text-big {
+    transition: transform 0.5s ease;
+}
+
+.top-bar #bar-text-small {
+    transition: transform 0.5s ease;
+}
+
+
+/* You might already have styles for .sidebar here */
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color:#1f2335;
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+.bar-text-big {
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px; 
+    margin-right: 10px;
+    margin-left: 20px;
+}
+.bar-text-small {
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px; /* Sets the font size */
+    margin-right: 10px; 
+    margin-top: 19px
+}
+
+.menu-icon {
+    cursor: pointer;
+    max-width: auto;
+    height: 50px;
+    margin-right: 20px;
+    margin-left: 40px
+}
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 161px;
+}
+
+.sidebar a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #c0caf5;
+    display: block;
+    opacity: o;
+    transition: opacity 0.3s ease;
+}
+
+.sidebar a:hover {
+    background-color: #c0caf5;
+}
