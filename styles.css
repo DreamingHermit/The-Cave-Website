@@ -116,6 +116,16 @@ html, body {
     align-content: center;
 }
 
-.text-box-frog1 {
-    width: 700px;
+.logos {
+    height: 60px;
+    width: 60px;
 }
+
+#GH_logo{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+#Twitter_logo{
+    margin-right: 60px;
+}
+
